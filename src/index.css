@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.img {
+  height: 60px;
+  padding: 0.2rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+.navbar {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.active {
+  color: white;
+}
+.list {
+  display: flex;
+  padding: 0.7rem;
+  justify-items: right;
+}
+.list li {
+  margin: 1rem;
+}
+.bannerRight {
+  width: 50%;
+  justify-items: center;
+  justify-content: center;
+  display: flex;
+}
+.homeImg {
+  width: 350px;
+  height: 550px;
+  position: absolute;
+  z-index: inherit;
+  margin-top: 1rem;
+}
