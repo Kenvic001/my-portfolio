@@ -17,13 +17,11 @@ const Project = () => {
           des='My Projects'
         />
       </div>
-      <div className='grid grid-cols-3 gap-14'>
+      <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14'>
         <ProjectCards
           title='Amazon Mini Clone'
           des='An awesome functional front end web developer using HTML, Javascript, React, Css and Tailwindcss'
-        >
-          
-        </ProjectCards>
+        ></ProjectCards>
         <Card2
           title='Game App'
           des='An awesome functional front end web developer using HTML, Javascript, React, Css and Tailwindcss'
@@ -32,7 +30,7 @@ const Project = () => {
           title='Simple Calc. App'
           des='An awesome functional front end web developer using HTML, Javascript, React, Css and Tailwindcss'
         />
-          
+
         <Card4
           title='Video Editing'
           des='An awesome functional front end web developer using HTML, Javascript, React, Css and Tailwindcss'
@@ -41,7 +39,6 @@ const Project = () => {
           title='Animated Tea Web'
           des='A very dynamic website that is fully animated. It shows a tea mug bringing out steam if a temperature value above 40 degrees is entered. It was done with HTML and CSS'
         />
-        
       </div>
     </section>
   );

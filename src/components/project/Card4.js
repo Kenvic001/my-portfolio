@@ -2,7 +2,7 @@ import { BsGithub } from 'react-icons/bs';
 import { FaGlobe } from 'react-icons/fa';
 const Card4 = ({ title, des }) => {
   return (
-    <div className='w-full px-12 h-auto py-10 rounded-lg shadow-shadowOne bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-gray-900 transition-colors duration-1000'>
+    <div className='w-full p-6 xl:px-12 h-auto xl:py-10 rounded-lg shadow-shadowOne bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-gray-900 transition-colors duration-1000'>
       <div className='w-full h-[60%] over-flow-hidden rounded-lg'>
         <img
           className='w-[285px] h-[177px] object-cover group-hover:scale-110 duration-300 cursor-pointer mb-2 rounded-lg'
@@ -27,7 +27,9 @@ const Card4 = ({ title, des }) => {
         </div>
       </div>
       <div>
-        <p className='text-sm tracking-wide mt-3 hover:text-gray-100 duration-300'>{des}</p>
+        <p className='text-sm tracking-wide mt-3 hover:text-gray-100 duration-300'>
+          {des}
+        </p>
       </div>
     </div>
   );

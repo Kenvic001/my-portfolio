@@ -6,10 +6,10 @@ const ResumeCard = ({ title, subTitle, des, location }) => {
           <span className='w-3 h-3 rounded-full bg-bodyColor inline-flex group-hover:bg-designColor duration-300'></span>
         </span>
       </div>
-      <div className='w-full bg-black bg-opacity-20 hover:bg-opacity-30 duration-300 rounded-lg px-10 flex flex-col justify-center gap-10 shadow-shadowOne'>
-        <div className='flex justify-between'>
+      <div className='w-full bg-black bg-opacity-20 hover:bg-opacity-30 duration-300 rounded-lg lgl:px-10 p-4 flex flex-col justify-center lgl:gap-10 gap-5 shadow-shadowOne'>
+        <div className='flex flex-col lgl:flex-row justify-between lgl:items-center gap-4 lgl:gap-0'>
           <div>
-            <h3 className='text-2xl font-semibold group-hover:text-white duration-300'>
+            <h3 className='text-xl md:text-2xl font-semibold group-hover:text-white duration-300'>
               {title}
             </h3>
             <p className='text-sm mt-2 text-gray-400 group-hover:text-white duration-300'>
@@ -17,13 +17,13 @@ const ResumeCard = ({ title, subTitle, des, location }) => {
             </p>
           </div>
           <div>
-            <p className='w-20 h-10 text-designColor bg-black bg-opacity-25 flex justify-center items-center shadow-shadowOne text-sm font-medium rounded-lg'>
+            <p className='px-4 py-2 text-designColor bg-black bg-opacity-25 flex justify-center items-center shadow-shadowOne text-sm font-medium rounded-lg'>
               {location}
             </p>
           </div>
         </div>
         <div>
-          <p className='text-lg mt-2 text-gray-400 group-hover:text-white duration-300'>
+          <p className='text-sm md:text-base mt-2 text-gray-400 group-hover:text-white duration-300'>
             {des}
           </p>
         </div>

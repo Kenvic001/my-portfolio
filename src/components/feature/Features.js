@@ -7,10 +7,10 @@ const Features = () => {
   return (
     <section
       id='features'
-      className='w-full h-[1000px]  py-20  border-b-[1px] border-b-black '
+      className='w-full px-5 py-20  border-b-[1px] border-b-black '
     >
       <Title title='Feature' des='What I Do' />
-      <div className='grid grid-cols-3 gap-20'>
+      <div className='grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-3 xl:gap-20'>
         <Card
           title='Web Development'
           des='An awesome functional front end web developer using HTML, Javascript, React, Css and Tailwindcss'

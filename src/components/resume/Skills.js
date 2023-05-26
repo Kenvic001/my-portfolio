@@ -4,12 +4,12 @@ const Skills = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className='w-full flex gap-20'
+      className='w-full flex flex-col lgl:flex-row lgl:gap-20 gap-10'
     >
-      <div className='w-1/2'>
+      <div className='lgl:w-1/2 w-full'>
         <div className='py-12 font-titleFont'>
           <p className='text-sm text-designColor tracking-[4px]'> Features</p>
-          <h2 className='text-4xl font-bold'>DESIGN SKILLS</h2>
+          <h2 className='text-3xl md:text-4xl font-bold'>DESIGN SKILLS</h2>
         </div>
         <div className='w-full mt-5 flex flex-col gap-5'>
           <div className='overflow-x-hidden'>
@@ -79,10 +79,10 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <div className='w-1/2'>
+      <div className='lgl:w-1/2 w-full'>
         <div className='py-12 font-titleFont'>
           <p className='text-sm text-designColor tracking-[4px]'> Features</p>
-          <h2 className='text-4xl font-bold'>DEVELOPMENT SKILLS</h2>
+          <h2 className='text-3xl md:text-4xl font-bold'>DEVELOPMENT SKILLS</h2>
         </div>
         <div className='w-full mt-5 flex flex-col gap-5 '>
           <div className='overflow-x-hidden'>

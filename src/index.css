@@ -2,14 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.img {
-  height: 60px;
-  padding: 0.2rem;
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
-  border-bottom-left-radius: 2rem;
-  border-bottom-right-radius: 2rem;
-}
+
 .navbar {
   display: flex;
   justify-items: center;
@@ -20,22 +13,8 @@
 }
 .list {
   display: flex;
-  padding: 0.7rem;
-  justify-items: right;
 }
-.list li {
-  margin: 1rem;
-}
-.bannerRight {
-  width: 50%;
-  justify-items: center;
-  justify-content: center;
-  display: flex;
-}
-.homeImg {
-  width: 350px;
-  height: 550px;
-  position: absolute;
-  z-index: inherit;
-  margin-top: 1rem;
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
