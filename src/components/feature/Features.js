@@ -9,7 +9,7 @@ const Features = () => {
       id='features'
       className='w-full px-5 py-20  border-b-[1px] border-b-black '
     >
-      <Title title='Feature' des='What I Do' />
+      <Title className='text-center' title='Feature' des='What I Do' />
       <div className='grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-3 xl:gap-20'>
         <Card
           title='Web Development'

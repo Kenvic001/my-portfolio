@@ -12,7 +12,6 @@ const Card5 = ({ title, des }) => {
       </div>
       <div className='flex items-center justify-between mt-10'>
         <h2 className='text-lg font-titleFont font-bold text-designColor'>
-          {' '}
           {title}
         </h2>
         <div className=' gap-1'>

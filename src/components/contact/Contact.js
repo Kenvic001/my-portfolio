@@ -45,7 +45,7 @@ const Contact = () => {
   return (
     <section
       id='contacts'
-      className='w-full py-20 border-b-[1px] border-b-black'
+      className='w-full py-20 border-b-[1px] border-b-black px-5'
     >
       <div className='items-center text-center justify-center'>
         <Title title='CONTACT ' des='Contact Me' />

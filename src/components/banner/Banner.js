@@ -55,10 +55,10 @@ const Banner = () => {
               <span className='bannerIcon w-10 h-10 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex item-center justify-center rounded-md shadow-shadowOne hover: bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300'>
                 <FaFacebook className='w-10 h-10' />
               </span>
-              <span className='bannerIcon w-10 h-10 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex item-center justify-center rounded-md shadow-shadowOne hover: bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300'>
+              <span className='bannerIcon w-10 h-10 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex item-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300'>
                 <FaTwitter className='w-10 h-10' />
               </span>
-              <span className='bannerIcon w-10 h-10 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex item-center justify-center rounded-md shadow-shadowOne hover: bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300'>
+              <span className='bannerIcon w-10 h-10 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex item-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300'>
                 <FaLinkedin className='w-10 h-10' />
               </span>
             </div>
@@ -87,12 +87,14 @@ const Banner = () => {
 
       {/* For the right homepage */}
       <div className='flex relative w-full  lgl:w-1/2 justify-center items-center'>
-        <div className='absolute button-0 w-[350px] h-[350px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex rounded-lg'></div>
-        <img
-          className='homeImg w-[300px] h-[400px] lgl:w-[350px] lgl:w-[550px] rounded-lg z-10 mt-1rem'
-          src='.\images\home1.jpg'
-          alt='ceo'
-        />
+        <div className='flex relative group button-0 justify-center items-center'>
+          <div className='absolute button-0 w-[320px] h-[420px] lgl:w-[370px] lgl:h-[570px]  shadow-shadowOne flex rounded-full group group-hover:bg-designColor duration-300 '></div>
+          <img
+            className=' group-hover:bg-designColor homeImg w-[300px] h-[400px] lgl:w-[350px] lgl:h-[550px] rounded-full z-10 mt-1rem'
+            src='.\images\home1.jpg'
+            alt='ceo'
+          />
+        </div>
       </div>
     </section>
   );

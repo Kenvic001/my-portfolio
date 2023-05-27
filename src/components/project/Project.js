@@ -17,7 +17,7 @@ const Project = () => {
           des='My Projects'
         />
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14'>
+      <div className='grid px-6 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14'>
         <ProjectCards
           title='Amazon Mini Clone'
           des='An awesome functional front end web developer using HTML, Javascript, React, Css and Tailwindcss'

@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className='flex gap-0.7 relative'>
           {' '}
           <img
-            className='w-[70px] h-[70px] md:w-[70px] md:h-[70px] rounded-full lg:rounded-full'
+            className='w-[60px] h-[60px] md:w-[60px] md:h-[70px] rounded-full lg:rounded-full py-2'
             src='.\images\logoMain.jpg'
             alt='logo'
           />

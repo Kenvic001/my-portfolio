@@ -1,14 +1,15 @@
 import ResumeCard from './ResumeCard';
 import { motion } from 'framer-motion';
+import ResumeCard2 from './ResumeCard2';
 const Education = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className='w-full flex-col lgl:flex-row gap-10 lgl:gap-20 mt-5'
+      className='w-full flex flex-col lg:flex-row gap-10 lgl:gap-20 mt-5 px-5'
     >
-      <div className='w-1/2'>
-        <div className='py-6 lgl:py-12 font-titleFont flex flex-col gap-4'>
+      <div className='w-full mdl:w-1/2'>
+        <div className='py-6 px-5 lgl:py-12 font-titleFont flex flex-col gap-4 text-center'>
           <p className='text-sm text-designColor tracking-[4px]'> 2002-2023</p>
           <h2 className='text-3xl md:text-4xl font-bold'>EDUCATION</h2>
         </div>
@@ -33,9 +34,9 @@ const Education = () => {
           />
         </div>
       </div>
-      <div className='w-1/2'>
+      <div className=' w-full h-[400px] mdl:w-1/2'>
         <div>
-          <div className='py-6 lgl:py-12 font-titleFont flex flex-col gap-4'>
+          <div className='py-6 lgl:py-12 font-titleFont flex flex-col gap-4 items-center'>
             <p className='text-sm text-designColor tracking-[4px]'>
               {' '}
               2023-Present
@@ -43,8 +44,8 @@ const Education = () => {
             <h2 className='text-3xl md:text-4xl font-bold'>Work Experience</h2>
           </div>
         </div>
-        <div className=' mt-6 lgl:mt-14  w-full h-[800px] border-l-[6px] border-l-black border-opacity-30'>
-          <ResumeCard
+        <div className='mt-5 lgl:mt-0  w-full h-[300px] border-l-[6px] border-l-black border-opacity-30'>
+          <ResumeCard2
             title='Front End Developer Intern'
             subTitle='ICT Centre, UNN (2023-Present)'
             des='Currently working as an IT student at an ICT centre. Currently working with other front and back end developers to build awesome projects'

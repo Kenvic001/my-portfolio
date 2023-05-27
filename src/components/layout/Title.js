@@ -1,6 +1,6 @@
 const Title = ({ title, des }) => {
   return (
-    <div className='flex flex-col gap-4 font-titleFont '>
+    <div className='flex flex-col gap-4 font-titleFont justify-center items-center'>
       <h3 className='text-sm uppercase font-light text-designColor tracking-wide '>
         {title}
       </h3>
